@@ -18,6 +18,7 @@ data/raw/*
 data/interim/*
 data/processed/*
 data/external/*
+data/*
 
 
 # Distribution / packaging
@@ -92,3 +93,7 @@ venv.bak/
 # macthingies
 .DS_Store
 src/features/do_not_commit.py
+
+# models
+models/
+*.h5
