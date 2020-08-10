@@ -1,8 +1,16 @@
+"""
+download the model and put it in the folder logo_detection/model/
+model --> https://github.com/OlafenwaMoses/ImageAI/releases/download/essential-v4/pretrained-yolov3.h5
+
+download the data and put the folders [train, validation, test] in the folder logo_detection/data/
+data (e.g.) --> http://qm-import-export.s3.amazonaws.com/keurmerken-od-data-students-1.zip
+"""
+
 from imageai.Detection.Custom import DetectionModelTrainer
 
 # Your data and model directories here
 DATA_DIR = "../data/"
-MODEL_PATH = "../models/detection_model-ex-015--loss-0004.540.h5"
+MODEL_PATH = "../models/pretrained-yolov3.h5"
 
 
 def keurmerk_train(data, model):
